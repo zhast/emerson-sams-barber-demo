@@ -339,3 +339,29 @@ h2 {
     padding: 3.25rem 0 3.5rem;
   }
 }
+
+.hours-source {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted, #6b6560);
+  margin: 0 0 0.75rem;
+}
+.hours-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  max-width: 22rem;
+}
+.hours-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.08);
+  font-size: 0.95rem;
+}
+.hours-list li span:last-child {
+  font-variant-numeric: tabular-nums;
+  color: var(--ink, #1a1a1a);
+}
